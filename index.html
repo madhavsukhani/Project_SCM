@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mausam - Weather Forecast</title>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Quicksand:wght@300..700&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="./mausam_logo.png">
+  <script src="https://kit.fontawesome.com/bc2481ea60.js" crossorigin="anonymous"></script>
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+        font-family: "Red Hat Display";
+      text-shadow: black;
+      line-height: 1.5;
+      color: #333;
+      background: url('https://www.tomorrow.city/wp-content/uploads/2023/10/skyscraper_1.jpg') no-repeat center center/cover;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    /* Header Contents */
+    .header-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+      background: transparent;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .header-content .btn {
+      background-color: white;
+      color: rgba(0, 0, 0, 0.796);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .header-content .btn:hover {
+        transform: translateY(-1.5px);  /* Moves the box 10px upwards */
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2); 
+    }
+
+    /* Hero Section */
+    .hero {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+      position: relative;
+    }
+
+    .hero{
+        margin-top: 60px;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero button {
+      padding: 15px 30px;
+      font-size: 1rem;
+      color: #fff;
+      background-color: #e4f2f66e;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .hero button:hover {
+      background-color: #fafdfc;
+      color: black;
+    }
+
+    /* Features Section */
+    .features {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .feature-card {
+      background: #fff;
+      border-radius: 8px;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+
+    .feature-card h3 {
+      margin-bottom: 10px;
+      color: #007bff;
+    }
+
+    /* Footer Section */
+    footer {
+      font-size: 30 em;
+      text-align: center;
+      padding: 20px;
+      background: rgb(234, 233, 233);
+      color: #333;
+    }
+    footer p{
+        font-size: large;
+    }
+  </style>
+</head>
+<body>
+  <div class="header-content">
+    <a href="./loginpage.html"><button class="btn">Get The App</button></a>
+    <span class="btn">Mausam - Your Weather Buddy</span>
+    <div>
+        <a href="./about.html"><button class="btn">About</button> </a>
+        <a href="./support-center.html"><button class="btn">Support center</button> </a>
+    </div>
+  </div>
+
+  <section class="hero">
+    <h1 >Precise <i class="fa-solid fa-wand-magic-sparkles"></i> Weather,</h1>
+    <h1> Precisely for You</h1>
+    <a href="./loginpage.html"><button>Get Started With Mausam!</button></a>
+  </section>
+
+  
+
+  <footer>
+    <section class="features">
+      <h2>Don’t <div style="background-color: white; border-radius: 50px; display: inline; padding: 10px;">Guess &nbsp;<i class="fa-solid fa-cloud-sun-rain"></i></div> the</h2>
+      <h2 style="text-align: center;"> Weather!</h2>
+      <p> Rely on Mausam for year-round weather </p>
+      <p> forecast for your location and </p> 
+      <p> <b>across the world.</b> </p>
+      
+    </section>
+  </footer>
+</body>
+</html>
+
+
+
