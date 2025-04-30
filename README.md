@@ -125,10 +125,6 @@ When you first visit the website, you’ll see the **Home Page** with an introdu
 - **Productivity Tracker**
 
 #### Action: Click on any feature in the navigation bar to begin using it.
-.![image](https://github.com/user-attachments/assets/ec71f4a2-62ea-454e-a1d1-ec1f08f35ec1).
-
-
-![image](https://github.com/user-attachments/assets/b3e7b3bc-c4c0-41e8-b3f4-3aec4ac78186)
 
 
 ---
@@ -140,18 +136,14 @@ The **Notes** feature helps you keep track of important information and thoughts
 #### How to Create Notes:
 1. Navigate to the **Notes** section via the top navigation bar.
 2. Click on the **"New Note"** button.
-.![image](https://github.com/user-attachments/assets/054f68f6-6aeb-41d2-ad5b-9533a28c67a1).
 3. In the text editor, type your note. You can use rich text formatting (bold, italics, etc.).
- ![image](https://github.com/user-attachments/assets/9e5f9abd-13f5-4938-882a-ade2afbf372f)
 4. If needed, **add images or emojis** to enhance your notes.
 
 #### How to Edit or Delete Notes:
 1. To **edit** a note, click on the note you want to modify and make the changes.
 2. To **delete** a note, click on the **trash icon** next to the note.
-![Screenshot 2025-01-19 044049](https://github.com/user-attachments/assets/40eadd9e-137d-4f04-9408-0e2b6c26d66f)
 
 #### Action: Search important notes by clicking the **"Search Notes"** icon to keep them at the top for easy access.
-![image](https://github.com/user-attachments/assets/64c7f6b0-6c5e-4035-b005-5041a8635bc8)
 
 ---
 
@@ -164,11 +156,9 @@ Use the **To-Do List** feature to manage your daily tasks and set priorities.
 2. Click on **"Add Task"** to create a new task.
 3. Fill in the **Task Name**, **Priority** (Low, Medium, High), and an optional **Deadline**.
 4. Click **"Add"** to save the task.
-![image](https://github.com/user-attachments/assets/28d944b1-3f8d-4cd6-b8d5-7c739a4b04a8)
 
 #### How to Mark Tasks as Completed:
 1. Once a task is done, click the checkbox next to it to mark it as **completed**.
-![image](https://github.com/user-attachments/assets/97e5668d-b03d-4753-9253-8f2166beb494)
 
 #### Action: To **edit** or **delete** tasks, click on the task name and make changes or click the **trash icon** to remove it.
 
@@ -183,22 +173,16 @@ The **Calendar** section helps you organize your tasks and events by date.
 2. Click on any date you want to add a task or event to.
 3. Enter the **Task/Event Name**, **Start Date**, **End Date**, and optionally set a **Priority Level**.
 4. Click **Save** to add the event to your calendar.
-![image](https://github.com/user-attachments/assets/f770f8ff-c51d-47df-bc27-0d5150eb98a5)
-
-![image](https://github.com/user-attachments/assets/83ffa752-a117-46b9-b89b-d803cfc41e74)
 
 #### How to Edit/Remove Events:
 1. To **edit** an event, click on it and update the details.
 2. To **delete** an event, click on the **Delete Button**.
-![image](https://github.com/user-attachments/assets/6cb30979-d677-44aa-876b-9df8b7dc30ea)
 
 
 #### Action: Use the **day**, **week**, and **month** views to toggle between different calendar layouts.
 ## Week View
-![image](https://github.com/user-attachments/assets/d48309e4-c442-4bda-bda8-f126cd6bf4b2)
 ## Day View
-![image](https://github.com/user-attachments/assets/d88b602e-909f-45a0-9fa8-3a1287e9b1e5)
-
+]
 
 ---
 
@@ -211,8 +195,7 @@ The **Productivity Tracker** helps you evaluate how productive you were througho
 2. In the 24-hour table, enter the **Task Description** for each hour.
 3. For each task, select whether it is **Urgent** and/or **Important** from the dropdown menu.
 4. After entering all your tasks, the tracker will automatically calculate your **Productivity Score**.
-![image](https://github.com/user-attachments/assets/df0d0bd1-c010-4652-8e97-1cb05cc7e396)
-
+]
 #### How to View Productivity:
 1. The **Urgency-Importance Matrix** will categorize your tasks into four quadrants:
    - **Urgent & Important**
@@ -228,7 +211,6 @@ The **Productivity Tracker** helps you evaluate how productive you were througho
 
 - **Clear All**:  
   Click the **Clear All** button in any section to reset your entries and start fresh.
-![image](https://github.com/user-attachments/assets/b75fd962-1689-48b4-9bda-fb124c49ef3f)
 
 ---
 
@@ -240,15 +222,12 @@ The **Mind Map Creator** allows you to visualize your ideas and connect them in 
 1. Go to the **Mind Map Creator** section.
 2. Hover On the node and select to create Childs.
 3. Enter text in the node and customize it by changing the **color**.
-![image](https://github.com/user-attachments/assets/01dad7c5-903b-48ac-906a-c301cbca286d)
 
 #### How to Connect Nodes:
 1. To create a connection, Hover on the Node and Select (add child, add sibling, add right/left child) icon and drag it between two nodes.
-![image](https://github.com/user-attachments/assets/e2b18812-c9b0-4276-8e98-a2be6f969d28)
 
 # Saving and Storing The MindMap To Create Multiple Mindmaps
 ### Use These Buttons.
-![image](https://github.com/user-attachments/assets/3ab0f352-f959-4003-b2e9-956f5db57ee3)
 
 
 #### How to Customize the Mind Map:
@@ -262,9 +241,6 @@ The **Mind Map Creator** allows you to visualize your ideas and connect them in 
 
 - **Light/Dark Mode**:  
   Toggle between **light** and **dark** themes using the switch located in the top navigation bar..
-![image](https://github.com/user-attachments/assets/82ce70ed-1ca7-4bcd-b59c-384c7f7d885b).
-![image](https://github.com/user-attachments/assets/e9a0f01f-f01e-44a8-959c-0c9a42425791).
-![image](https://github.com/user-attachments/assets/1e9db5c0-c139-496c-b00b-f1b81285315f)
 
 
 
