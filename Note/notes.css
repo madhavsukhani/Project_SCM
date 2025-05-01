@@ -9,16 +9,7 @@
     --border-color: #e0e0e0;
   }
   
-  [data-theme="dark"] {
-    --primary-color: #818cf8;
-    --secondary-color: #6366f1;
-    --bg-color: #1a1a1a;
-    --text-color: rgba(255, 255, 255, 0.87);
-    --card-bg: #242424;
-    --shadow: rgba(0, 0, 0, 0.3);
-    --modal-bg: #2a2a2a;
-    --border-color: #404040;
-  }
+ 
   
   * {
     margin: 0;
@@ -26,6 +17,7 @@
     box-sizing: border-box;
     transition: background-color 0.3s, color 0.3s;
   }
+  
 
   #not{
     padding-top: 50px;
