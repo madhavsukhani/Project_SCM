@@ -13,14 +13,6 @@ themeToggle.addEventListener('click', () => {
     document.documentElement.setAttribute('data-theme', newTheme);
 });
 
-// Mobile Menu Toggle
-const hamburger = document.getElementById('hamburger');
-const navMenu = document.getElementById('nav-menu');
-
-hamburger.addEventListener('click', () => {
-    navMenu.classList.toggle('active');
-    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
-});
 
 // Close mobile menu when clicking outside
 document.addEventListener('click', (e) => {
@@ -30,6 +22,15 @@ document.addEventListener('click', (e) => {
         navMenu.classList.remove('active');
         document.body.style.overflow = '';
     }
+});
+
+// Mobile Menu Toggle
+const hamburger = document.getElementById('hamburger');
+const navMenu = document.getElementById('nav-menu');
+
+hamburger.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+    document.body.style.overflow = navMenu.classList.contains('active') ? 'hidden' : '';
 });
 
 // Smooth scrolling for navigation links
