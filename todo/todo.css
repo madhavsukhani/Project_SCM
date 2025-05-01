@@ -16,6 +16,12 @@
     padding: 0;
     box-sizing: border-box;
   }
+  [data-theme="dark"] {
+    --background: #242424;
+    --text-color: rgba(255, 255, 255, 0.87);
+    --card-background: #1a1a1a;
+    --border-color: #333;
+  }
   
   body {
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
