@@ -230,21 +230,7 @@ select, input[type="color"] {
     line-height: 1.4;
 }
 
-.saved-maps {
-    position: fixed;
-    top: 70px;
-    right: 20px;
-    background: var(--saved-maps-bg);
-    border: 1px solid var(--saved-maps-border);
-    border-radius: 8px;
-    padding: 15px;
-    width: 250px;
-    max-height: calc(100vh - 100px);
-    overflow-y: auto;
-    box-shadow: 0 4px 6px var(--shadow-color);
-    z-index: 1000;
-    display: none;
-}
+
 
 .saved-maps.show {
     display: block;
@@ -264,7 +250,21 @@ select, input[type="color"] {
     cursor: pointer;
     transition: all 0.2s ease;
 }
-
+.saved-maps {
+    position: fixed;
+    top: 70px;
+    right: 20px;
+    background: var(--saved-maps-bg);
+    border: 1px solid var(--saved-maps-border);
+    border-radius: 8px;
+    padding: 15px;
+    width: 250px;
+    max-height: calc(100vh - 100px);
+    overflow-y: auto;
+    box-shadow: 0 4px 6px var(--shadow-color);
+    z-index: 1000;
+    display: none;
+}
 .saved-map-item:hover {
     background: var(--hover-bg);
 }
