@@ -192,7 +192,6 @@ select, input[type="color"] {
     display: flex;
     flex-direction: column;
 }
-
 .node-control-button {
     width: 90px;
     height: 32px;
@@ -207,7 +206,14 @@ select, input[type="color"] {
     gap: 5px;
     font-size: 12px;
 }
-
+.node:hover .node-controls {
+    display: flex;
+    flex-direction: column;
+}
+.node.editing {
+    border-color: var(--editing-border);
+    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.2);
+}
 .node-control-button i {
     font-size: 14px;
 }
@@ -216,10 +222,7 @@ select, input[type="color"] {
     background: var(--hover-bg);
 }
 
-.node.editing {
-    border-color: var(--editing-border);
-    box-shadow: 0 0 0 3px rgba(46, 204, 113, 0.2);
-}
+
 
 .node-content {
     min-height: 20px;
