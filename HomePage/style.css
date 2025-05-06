@@ -8,14 +8,7 @@
     --transition-speed: 0.3s;
 }
 
-[data-theme="dark"] {
-    --primary-color: #818cf8;
-    --primary-dark: #6366f1;
-    --text-primary: #f3f4f6;
-    --text-secondary: #d1d5db;
-    --bg-primary: #111827;
-    --bg-secondary: #1f2937;
-}
+
 
 * {
     margin: 0;
@@ -23,12 +16,22 @@
     box-sizing: border-box;
 }
 
+
 html {
     scroll-behavior: smooth;
 }
 
 a {
     text-decoration: none;
+}
+
+[data-theme="dark"] {
+    --primary-color: #818cf8;
+    --primary-dark: #6366f1;
+    --text-primary: #f3f4f6;
+    --text-secondary: #d1d5db;
+    --bg-primary: #111827;
+    --bg-secondary: #1f2937;
 }
 
 body {
